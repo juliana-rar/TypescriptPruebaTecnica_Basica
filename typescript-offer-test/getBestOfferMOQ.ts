@@ -3,7 +3,7 @@ import { Oferta } from "./ofertas";
 /**
  * Implementa esta función para calcular el coste de cada oferta y devolver la mejor oferta.
  */
-export function getBestOffer2(ofertas: Oferta[], cantidad: number): {
+export function getBestOfferMOQ(ofertas: Oferta[], cantidad: number): {
   costes: { ofertaId: string; coste: number }[];
   mejorOferta: Oferta | null;
 } {
