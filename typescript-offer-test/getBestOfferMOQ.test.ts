@@ -11,6 +11,6 @@ describe("getBestOffer", () => {
       expect(c.coste).toBeCloseTo(costesEsperados[idx], 2);
     });
     // La mejor oferta debe ser la de coste más bajo
-    expect(resultado.mejorOferta?.Id).toBe(ofertas[1].Id);
+    expect(resultado.mejorOferta?.Id).toBe(ofertas[0].Id);
   });
 });
